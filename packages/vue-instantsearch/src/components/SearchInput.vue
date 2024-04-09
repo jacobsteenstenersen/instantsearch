@@ -29,6 +29,7 @@
     />
     <button
       type="submit"
+      aria-label="submit button"
       :title="submitTitle"
       :class="suit('submit')"
       :hidden="showLoadingIndicator && shouldShowLoadingIndicator"
@@ -49,6 +50,7 @@
     </button>
     <button
       type="reset"
+      aria-label="reset button"
       :title="resetTitle"
       :class="suit('reset')"
       :hidden="
